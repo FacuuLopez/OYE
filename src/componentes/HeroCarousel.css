@@ -1,0 +1,22 @@
+.my-carousel .carousel-item {
+    animation-name: fade-in-animation;
+  animation-duration: 4s; /* set the duration of the animation */
+  }
+  .my-carousel .carousel-item.active {
+    opacity: 0;
+  }
+
+  @keyframes fade-in-animation {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

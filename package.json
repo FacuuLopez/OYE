@@ -7,11 +7,16 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
+    "jsonschema": "^1.4.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-css-filter": "^1.0.4",
     "react-dom": "^18.2.0",
+    "react-router": "^6.9.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "ts-json-schema-generator": "^1.2.0",
+    "typescript-json-schema": "^0.55.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,7 +44,10 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
     "file-loader": "^6.2.0",
+    "typescript": "^4.9.5",
     "url-loader": "^4.1.1"
   }
 }
